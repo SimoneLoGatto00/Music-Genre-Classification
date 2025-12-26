@@ -35,7 +35,7 @@ From each audio track we derive:
 
 <img src="figures/WaveFormVisualization.png" width="500">
 
-<img src="figures/SpectrogramVisualization.png" width="500">
+<img src="figures/SpectrogramVisualization.jpg" width="500">
 
 ---
 
