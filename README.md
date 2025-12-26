@@ -125,11 +125,6 @@ ensuring that segments from the same original track do not leak across splits.
 
 ### 🔎 Confusion Matrix (MFCC CNN)
 
-Accuracy: 0.8463
-Precision: 0.8456
-Recall: 0.8464
-F1: 0.8444
-
 <img src="figures/ConfusionMatrixBestModel.png" width="500">
 
 ---
