@@ -104,7 +104,7 @@ ensuring that segments from the same original track do not leak across splits.
 - Optimization with mini-batch gradient descent (e.g., Adam).  
 - Early stopping based on validation performance to prevent overfitting.
 
-📉 Training Curves (MFCC CNN)
+## 📉 Training Curves (MFCC CNN)
 
 <img src="figures/TrainingCurveBestModel.png" width="500">
 
@@ -115,7 +115,8 @@ ensuring that segments from the same original track do not leak across splits.
 - optionally precision, recall and F1-score per genre,  
 - confusion matrices to inspect common misclassifications.
 
-🔎 Confusion Matrix (MFCC CNN)
+## 🔎 Confusion Matrix (MFCC CNN)
+
 <img src="figures/ConfusionMatrixBestModel.png" width="500">
 
 ---
@@ -133,6 +134,10 @@ ensuring that segments from the same original track do not leak across splits.
 - Achieves higher test accuracy (around the mid-80% range) and better overall F1-score compared to the handcrafted approach.  
 
 Overall, the MFCC-image CNN is selected as the **best-performing model**, indicating that less compressed representations allow CNNs to learn richer discriminative patterns.
+
+## 📊 Model Comparison
+
+<img src="figures/BarChart.png" width="500">
 
 ---
 
