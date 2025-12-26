@@ -30,8 +30,11 @@ From each audio track we derive:
 
 - raw waveforms and spectrograms (for visualization),
 - MFCCs and other spectral features for model input.
-![Waveforms by genre](figures/WaveFormVisualization.png)
-![Spectrograms by genre](figures/SpectrogramVisualization.jpg)
+- 
+## 🎼 Waveforms and Spectrograms
+<img src="figures/WaveFormVisualization.png" width="500">
+<img src="figures/SpectrogramVisualization.png" width="500">
+
 ---
 
 3) Data Preprocessing  
@@ -98,13 +101,19 @@ ensuring that segments from the same original track do not leak across splits.
 - Cross-entropy loss for multi-class classification.  
 - Optimization with mini-batch gradient descent (e.g., Adam).  
 - Early stopping based on validation performance to prevent overfitting.
-![Training curves](figures/training_curves_mfcc_cnn.png)
+
+📉 Training Curves (MFCC CNN)
+<img src="figures/TrainingCurveBestModel.png" width="500">
+
 
 **Metrics**
 
 - **Accuracy** as the main metric,  
 - optionally precision, recall and F1-score per genre,  
 - confusion matrices to inspect common misclassifications.
+
+🔎 Confusion Matrix (MFCC CNN)
+<img src="figures/ConfusionMatrixBestModel.png" width="500">
 
 ---
 
