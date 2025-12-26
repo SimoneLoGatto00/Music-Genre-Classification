@@ -30,9 +30,11 @@ From each audio track we derive:
 
 - raw waveforms and spectrograms (for visualization),
 - MFCCs and other spectral features for model input.
-- 
+
 ## 🎼 Waveforms and Spectrograms
+
 <img src="figures/WaveFormVisualization.png" width="500">
+
 <img src="figures/SpectrogramVisualization.png" width="500">
 
 ---
@@ -103,6 +105,7 @@ ensuring that segments from the same original track do not leak across splits.
 - Early stopping based on validation performance to prevent overfitting.
 
 📉 Training Curves (MFCC CNN)
+
 <img src="figures/TrainingCurveBestModel.png" width="500">
 
 
