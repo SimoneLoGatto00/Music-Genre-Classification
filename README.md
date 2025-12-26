@@ -20,15 +20,18 @@ The dataset used is the **GTZAN Genre Collection**, a standard benchmark for mus
 - 10 genres (e.g., blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, rock)  
 - Each track is 3 seconds long, originally sampled at ~22 kHz.
 
+
 **Target Variable**  
 The target is the **music genre** of each track, modeled as a 10-class classification problem.
+
 
 **Features**  
 From each audio track we derive:
 
 - raw waveforms and spectrograms (for visualization),
 - MFCCs and other spectral features for model input.
-
+![Waveforms by genre](figures/WaveFormVisualization.png)
+![Spectrograms by genre](figures/SpectrogramVisualization.jpg)
 ---
 
 3) Data Preprocessing  
@@ -95,6 +98,7 @@ ensuring that segments from the same original track do not leak across splits.
 - Cross-entropy loss for multi-class classification.  
 - Optimization with mini-batch gradient descent (e.g., Adam).  
 - Early stopping based on validation performance to prevent overfitting.
+![Training curves](figures/training_curves_mfcc_cnn.png)
 
 **Metrics**
 
