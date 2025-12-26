@@ -149,7 +149,7 @@ Overall, the MFCC-image CNN is selected as the **best-performing model**, indica
 
 ---
 
-## 8) Conclusions and Future Work  
+## 8) Conclusions  
 
 **Key Insights**
 
@@ -157,9 +157,8 @@ Overall, the MFCC-image CNN is selected as the **best-performing model**, indica
 - CNNs trained on MFCC “images” outperform those trained on heavily aggregated handcrafted features  
 - time–frequency representations are effective for music genre classification tasks  
 
-**Future Directions**
 
-- introduce **data augmentation** at the audio level (time stretching, pitch shifting, noise)  
-- experiment with more advanced architectures (ResNet-like CNNs, CRNNs combining CNN and RNN)  
-- extend the approach to **multi-label** tasks or **mood/emotion classification**  
-- deploy a small demo to classify user-uploaded audio clips  
+## 📫 Contacts
+- ✉️ Email: simone.logatto@outlook.com
+- 🔗 LinkedIn: [Simone Lo Gatto](https://www.linkedin.com/in/simonelogatto/)
+- 🐙 GitHub: @SimoneLoGatto00
